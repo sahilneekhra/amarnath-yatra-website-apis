@@ -19,14 +19,13 @@ A FastAPI-based service that checks **live slot availability** for the Amarnath 
 Instead of manually selecting dates one by one, this API allows you to query availability across a **date range** programmatically.
 
 ---
+## 🚀 Live API
 
-## 🚀 Live Demo
+👉 https://amarnath-yatra-website-apis.onrender.com/docs
 
-👉 *Add your deployed URL here after deployment*
+### Example
 
-* Swagger UI: `https://your-api-url/docs`
-* ReDoc: `https://your-api-url/redoc`
-
+GET https://amarnath-yatra-website-apis.onrender.com/availability?route=Baltal&start=2026-08-04&end=2026-08-14
 ---
 
 ## ✨ Features
