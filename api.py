@@ -50,11 +50,11 @@ def get_availability(
     ),
     start: date = Query(
         ...,
-        description="Start date (select from calendar)"
+        description="Start date (use YYYY-MM-DD format)"
     ),
     end: date = Query(
         ...,
-        description="End date (select from calendar)"
+        description="End date (use YYYY-MM-DD format)"
     )
 ):
     client = AmarnathClient()
